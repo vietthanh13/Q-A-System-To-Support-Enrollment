@@ -1,0 +1,4 @@
+﻿rasa==1.8
+pandas
+flask
+flask-cors

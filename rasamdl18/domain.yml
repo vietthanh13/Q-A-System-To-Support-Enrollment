@@ -1,0 +1,43 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - hoc_phi
+  - diem_chuan
+  - tuyen_sinh
+  - hoi_giao_vien
+  _ hoi_nha_tro
+
+responses:
+  utter_hoc_phi:
+    - text: "Cảm ơn bạn đã quan tâm. Học phí tại UEF được thu vào đầu mỗi học kỳ phụ thuộc vào số tín chỉ sinh viên đăng ký trong học kỳ đó. Sinh viên học trong 8 học kỳ. Học phí bình quân: 35 triệu đồng/học kỳ. Đặc biệt, sinh viên ngành Công nghệ thông tin, Thương mại điện tử, Ngôn ngữ Nhật, Ngôn ngữ Hàn Quốc, Ngôn ngữ Trung Quốc, Công nghệ truyền thông, Quan hệ công chúng, Quan hệ quốc tế, Khoa học dữ liệu, Quảng cáo, Tâm lý học, Thiết kế đồ họa được nhận học bổng do doanh nghiệp tài trợ tương đương 30% học phí trong toàn khóa học. Sinh viên chỉ đóng học phí bình quân 24 triệu đồng/học kỳ (Áp dụng cho tân sinh viên tốt nghiệp THPT năm 2021 và không áp dụng đồng thời với các chính sách học bổng khác)."
+    - text: "Chào bạn. Hiện tại, Đại học Kinh tế TP.HCM chưa công cố chi tiết mức học phí cho từng ngành học. Chương trình Đại trà bình quân là 20.500.000 VNĐ/ năm. Học phí có thể tăng mỗi năm là 10% theo quy định của Chính phủ. Chương trình Cử nhân Chất lượng cao bình quân từ 32 - 40.000.000 VNĐ/ năm (tùy theo chương trình đào tạo).Chương trình Cử nhân tài năng bình quân khoảng 50.000.000 VNĐ/ năm."
+    - text: "Hiện nay việc tăng học phí phụ thuộc vào chính sách của trường, bộ phận tuyển sinh chưa có thông tin chi tiết để thông báo đến bạn, hi vọng bạn ghé lại sau"
+    
+  utter_diem_chuan:
+    - text: "Mỗi năm, số điểm chuẩn của mỗi ngành của trường sẽ thay đổi, bạn vui lòng truy cập website UEF - Đại học Kinh tế - Tài chính thành phố Hồ Chí Minh (https://www.uef.edu.vn/) hoặc gọi (028) 5422 5555 - (028) 5422 6666 để được tư vấn về hình thức nhập học."
+    - text: "Chào bạn. Mỗi năm, số điểm chuẩn của mỗi ngành của trường sẽ thay đổi, bạn vui lòng truy cập website UEF - Đại học Kinh tế - Tài chính thành phố Hồ Chí Minh (https://www.uef.edu.vn/) hoặc gọi (028) 5422 5555 - (028) 5422 6666 để được tư vấn về hình thức nhập học."
+
+  utter_tuyen_sinh:
+    - text: "Năm 2020, UEF tiếp tục áp dụng đồng thời 4 phương thức: xét tuyển đại học bằng điểm thi THPT Quốc gia, xét điểm kỳ thi đánh giá năng lực của Đại học Quốc gia TP.HCM, xét tuyển bằng điểm học bạ lớp 12 tổ hợp 3 môn và xét học bạ THPT theo tổng điểm trung bình 5 học kỳ. "
+    - text: "Cảm ơn bạn quan tâm. Năm 2020, UEF tiếp tục áp dụng đồng thời 4 phương thức: xét tuyển đại học bằng điểm thi THPT Quốc gia, xét điểm kỳ thi đánh giá năng lực của Đại học Quốc gia TP.HCM, xét tuyển bằng điểm học bạ lớp 12 tổ hợp 3 môn và xét học bạ THPT theo tổng điểm trung bình 5 học kỳ. Bạn cần gì nữa không?"
+
+  utter_greet:
+    - text: "Chào mừng bạn đến với chatbot của UEF - Đại học Kinh tế - Tài chính thành phố Hồ Chí Minh. Bạn cần hỗ trợ gì?"
+    - text: "Chào bạn. Tôi có thể hỗ trợ bạn về tuyển sinh, học phí và điểm chuẩn. Bạn cần gì không?"
+
+  utter_goodbye:
+    - text: "Cảm ơn bạn đã ghé thăm UEF, hi vọng bạn sẽ ghé trường để tham quan"
+    - text: "Cảm ơn và hi vọng được gặp bạn tại UEF bạn nhé!"
+ 
+  utter_hoi_giao_vien:
+    - text: "Chào bạn. Giáo viên bên mình được tuyển chọn, toàn thầy cô giỏi nhé."
+    - text: "Cảm ơn bạn quan tâm. Giáo viên bên mình toàn thầy cô giỏi thôi."
+    - text: "Cảm ơn bạn đã quan tâm về chất lượng giáo viên. Giảng viên bên mình là những thầy cô có kinh nghiệm lâu năm trong nghề, "
+    
+   utter_hoi_nha_tro:
+    - text: "Chào bạn. Về vấn đề nhà trọ, bạn có thể lên lầu 4 gặp tổ hổ trợ sinh viên. Các bạn ấy sẽ dẫn bạn đi coi và tìm cho bạn một nơi ở thích hợp ạ."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
